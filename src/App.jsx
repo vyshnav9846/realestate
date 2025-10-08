@@ -1,25 +1,10 @@
 import { useState } from "react";
 
 export default function App() {
-  const [city, setCity] = useState("Kochi");
-
+  
   
 
-  const trending = new Array(8).fill({
-    price: "₹50 Lac",
-    type: "3BHK House",
-    location: "Kakkanad, Kochi",
-    rating: 4.8,
-    img: "https://via.placeholder.com/300x200",
-  });
-
-  const rentData = new Array(4).fill({
-    price: "₹10,000 / Month",
-    type: "3BHK House",
-    location: "Kakkanad, Kochi",
-    rating: 4.8,
-    img: "https://via.placeholder.com/300x200",
-  });
+  
 
   return (
     <div style={{ fontFamily: "Arial, sans-serif", backgroundColor: "#e8ecf1ff" }}>
